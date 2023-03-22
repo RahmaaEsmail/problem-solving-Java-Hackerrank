@@ -1,0 +1,44 @@
+// 1- Welcome to Java!
+
+ System.out.println("Hello, World.");
+ System.out.println("Hello, Java.");
+
+
+//2- Java Stdin and Stdout I 
+
+ Scanner sc = new Scanner(System.in);
+ int x = sc.nextInt();
+ int y = sc.nextInt();
+ int z = sc.nextInt();
+       System.out.println(x);
+       System.out.println(y);
+       System.out.println(z);
+
+
+//3-Java If-Else
+  int n = sc.nextInt();
+  if(n % 2 == 0) {
+      if(n>=2 && n<=5)  System.out.println("Not Weird");
+      else if(n>=6 && n<=20)  System.out.println("Weird");
+      else System.out.println("Not Weird");
+}
+  else 
+           System.out.println("Weird");
+
+//4-Java Stdin and Stdout II
+   int i=sc.nextInt();
+        sc.nextLine();
+        double d=sc.nextDouble();
+        sc.nextLine();
+        String s=sc.nextLine();
+        // Write your code here.
+
+        System.out.println("String: " + s);
+        System.out.println("Double: " + d);
+        System.out.println("Int: " + i);
+
+//5-loopI
+for(int i=1;i<=10;i++)
+        {
+            System.out.println(N + " x " + i + " = " +(N*i));
+        }
